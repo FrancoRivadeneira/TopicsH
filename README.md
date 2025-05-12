@@ -24,15 +24,30 @@ Students will explore **signal processing**, **machine learning**, and **predict
 
 ## 📁 Repository Structure
 
+- **TopicsH/**   
+  - `Lab1/`              - Introduction  
+  - `Lab2/`              - EDA  
+  - `Lab3/`              - Training using XGBoost  
+  - `Lab4/`              - Training using XGBoost Classification  
+  - `README.md`          - Project overview
+  - `requierements.txt`  - Dependencies
 
+
+---
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/industrial-data-analytics.git
    cd industrial-data-analytics
+2. **Activate virtual environment:**
+   ```bash
    python -m venv venv
    source venv/bin/activate      # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
+3. **Explore:**
+   ```bash
+   cd Lab1/
+   python solution.py
 
    
